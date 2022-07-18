@@ -1,0 +1,19 @@
+.logo {
+  @include font(700, 24px, 1.16, 0.03em);
+  font-family: 'raleway', sans-serif;
+  color: var(--accent-color);
+  @include desktop {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
+.logo-part {
+  @include font(700, 26px, 1.2, 0.03em);
+  color: var(--accent-color);
+  font-family: 'raleway', sans-serif;
+}
+
+.header-logo--color-black {
+  color: var(--logo-color-black);
+}

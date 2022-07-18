@@ -1,0 +1,48 @@
+.we-do-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  @include mobile {
+    display: none;
+  }
+  @include tablet {
+    display: none;
+  }
+}
+
+.we-do-section__title {
+  @include font(700, 36px, 1.16, 0.03em);
+  color: var(--title-color);
+  text-align: center;
+  margin: 0;
+}
+
+.we-do-list {
+  margin-right: -30px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  display: flex;
+  padding: 0;
+}
+
+.we-do-list__image {
+  margin-right: 30px;
+  position: relative;
+}
+
+.we-do-list__item {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.we-do-list__text {
+  @include font(700, 14px, 1.14, 0.03em);
+  margin: 0;
+  text-align: center;
+  color: var(--white-color);
+}
